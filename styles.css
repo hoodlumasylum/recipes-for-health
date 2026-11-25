@@ -527,3 +527,28 @@ a.card:hover {
 }
 .recipe .back-top { display: none; }
 .recipe.featured .back-top { display: inline-block; }
+
+.tradition {
+  margin: 0 0 12px;
+  color: var(--muted);
+  font-size: 0.98rem;
+}
+.warning {
+  background: #F8E6D4;
+  border: 1px solid #E0C4A4;
+  border-left: 4px solid #9A3B1A;
+  border-radius: 12px;
+  padding: 12px 14px;
+  margin: 4px 0 12px;
+  color: var(--ink);
+  font-size: 0.98rem;
+  line-height: 1.55;
+}
+.warning strong {
+  color: #6E1222;
+  font-weight: 700;
+}
+#traditional-herbs .note {
+  display: block;
+  margin-bottom: 22px;
+}
